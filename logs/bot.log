@@ -13,6 +13,4 @@
 2026-02-13 19:09:22,893 - INFO - Requests: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.1}
 2026-02-13 19:09:23,608 - INFO - Response : {'orderId': 12243870711, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '7n26iXdn2hBMgyx0d47sNV', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.100', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1770989964785}
 2026-02-13 19:10:04,671 - INFO - Requests: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 50000.0, 'timeInforce': 'GTC'}
-2026-02-13 19:10:05,253 - ERROR - Error Placing the Order: APIError(code=-4024): Limit price can't be lower than 63891.15.
-2026-02-13 19:20:39,652 - INFO - Requests: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
-2026-02-13 19:20:40,440 - ERROR - Error Placing the Order: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+
