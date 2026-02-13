@@ -19,21 +19,6 @@ Error handling and validation
 
 The project follows a modular design separating API logic, order handling, validation, and CLI interface.
 
-Project Structure
-project_root/
-│
-├── .venv/                 # Virtual environment (not included in repo)
-├── trading_bot/
-│   ├── __init__.py
-│   ├── client.py
-│   ├── orders.py
-│   ├── validators.py
-│   └── logging_config.py
-│
-├── cli.py
-├── requirements.txt
-├── README.md
-└── logs/
 
 Prerequisites
 
@@ -50,7 +35,7 @@ https://testnet.binancefuture.com/fapi
 Setup Instructions
 1️⃣ Clone Repository
 git clone 
-cd <project-folder>
+
 
 2️⃣ Create Virtual Environment
 python -m venv .venv
